@@ -1,0 +1,22 @@
+[
+	{
+		"movie": "3 Idiots",
+		"release_date": "2009-12-25"
+	},
+	{
+		"movie": "Kabhi Khushi Kabhie Gham",
+		"release_date": "2001-12-14"
+	},
+	{
+		"movie": "Padmaavat",
+		"release_date": "2018-01-25"
+	},
+	{
+		"movie": "Gangs of Wasseypur",
+		"release_date": "2012-06-22"
+	},
+	{
+		"movie": "Zindagi Na Milegi Dobara",
+		"release_date": "2011-07-15"
+	}
+]
