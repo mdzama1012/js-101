@@ -1,24 +1,39 @@
-// iterate array.
-nums = [1, 2, 3, 4, 5];
-for (const num of nums) {
+// iterate array or string using for of loop.
+arr = [1, 2, 3, 4, 5];
+for (const num of arr) {
 	console.log(num);
 }
 
-// iterate strings.
-const myName = "mohd zama";
-for (const alphabet of myName) {
-	console.log(alphabet);
+const fullName = "mohd zama";
+for (const char of fullName) {
+	console.log(char);
 }
 
-// for in loop is used for iterating objects.
+// iterate object using for in loop.
 const person = {
-	first_name: "Mohd",
-	last_name: "Zaidi",
-	age: 20,
-	hobbies: ["programming", "movies", "cooking", "reading", "watching reels"],
+	first_name: "mohd",
+	middle_name: "zama",
+	last_name: "zaidi",
+	age: 21,
+	hobbies: [
+		"building projects",
+		"programming",
+		"chess",
+		"collecting old ThinkPads",
+		"movies and anime",
+		"cooking",
+	],
 };
 for (const key in person) {
-	console.log(typeof key, key);
-	if (!Array.isArray(person[key])) console.log(person[key]);
-	else for (const element of person[key]) console.log(element);
+	// console.log(typeof key, key);
+
+	// check is the value of key is an array or not.
+	const isArr = Array.isArray(person[key]);
+	if (isArr) {
+		person[key].forEach(ele => {
+			console.log(ele);
+		});
+	} else {
+		console.log(person[key]);
+	}
 }

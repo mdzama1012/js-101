@@ -4,17 +4,17 @@ const add = (a, b) => {
 	return a + b;
 };
 
-// arrow function with one line of code and implicit return (undefined).
-const sayMyName = full_name => console.log(`hello, ${full_name}`);
-
 // arrow function with implicit return.
 const subtract = (a, b) => a - b;
 
 // arrow function with one parameter and implicit return. 😁
 const double = n => 2 * n;
 
+// arrow function with one line of code and implicit return (undefined).
+const sayMyName = fullName => console.log(`hello, ${fullName}`);
+
 // arrow function that return a object. 💀
-const getObject = (user_id, full_name, age) => ({ user_id, full_name, age });
+const makeObj = (userId, fullName, age) => ({ userId, fullName, age });
 
 // arrow function in a callback.
 let nums = [1, 2, 3, 4, 5];
@@ -29,20 +29,20 @@ nums.forEach(num => console.log(5 * num));
 // console.log(sayMyName('mohd zama'));
 // console.log(subtract(7, 5));
 // console.log(double(7));
-// console.table(getObject(15, 'mohd zama', 20));
+// console.table(makeOjb(15, 'mohd zama', 20));
 
-// ! function challenges-1:
+// function challenges-1:
 const getCelsius = temperature => ((temperature - 32) * 5) / 9;
 console.log(`temperature is 82 \xB0F or ${Math.round(getCelsius(82))} \xB0C`);
 
-// ! function challenges-2:
+// function challenges-2:
 const getMinMax = (...nums) => ({
 	min: Math.min(...nums),
 	max: Math.max(...nums),
 });
 console.log(getMinMax(1, 2, 4, 5, 5));
 
-// ! function challenges-3:
+// function challenges-3:
 ((length, width) => {
 	console.log(
 		`the area of a rectangle with length of ${length} and width of ${width} is ${
