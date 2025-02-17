@@ -1,5 +1,5 @@
 function foo() {
-	console.log(a);
+  console.log(a);
 }
 
 const a = 10;
@@ -11,11 +11,11 @@ foo();
 
 // lexical mean hierarchy in code (example is below).
 function x() {
-	// here function y lexically sites inside function x.
-	function y() {
-		console.log("hello");
-	}
-	y();
+  // here function y lexically sites inside function x.
+  function y() {
+    console.log('hello');
+  }
+  y();
 }
 
 // whenever we use a variable its value is searched for all the lexical environments, and this concept is know as scope chain.

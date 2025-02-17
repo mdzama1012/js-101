@@ -5,7 +5,7 @@ d = d.toString();
 
 // there are many ways to init the date.
 d = new Date(2020, 11, 10, 16, 30, 0); // month is offset by 1.
-d = new Date("2020-12-10T16:30:00");
+d = new Date('2020-12-10T16:30:00');
 
 // unix timestamp is system for describing a point in time (ms passed since 1th jan 1970).
 d = Date.now();

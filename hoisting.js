@@ -9,11 +9,11 @@ console.log(y);
 var a = 5;
 
 function x() {
-	console.log("hello");
+  console.log('hello');
 }
 
 var y = () => {
-	console.log("hello bro");
+  console.log('hello bro');
 };
 // ===============
 

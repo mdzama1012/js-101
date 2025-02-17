@@ -6,9 +6,9 @@
 
 // using event delegation.
 const list = document.querySelector('ul');
-list.addEventListener('click', event => {
-	console.log(event.target.tagName);
-	if (event.target.tagName === 'LI') {
-		event.target.remove();
-	}
+list.addEventListener('click', (event) => {
+  console.log(event.target.tagName);
+  if (event.target.tagName === 'LI') {
+    event.target.remove();
+  }
 });

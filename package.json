@@ -1,23 +1,25 @@
 {
-	"name": "javascript",
-	"version": "1.0.0",
-	"description": "Javascript 101",
-	"scripts": {},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/mdzama1012/all-javascript.git"
-	},
-	"keywords": [
-		"javascript",
-		"interview"
-	],
-	"author": "Mohammad Zama",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/mdzama1012/all-javascript/issues"
-	},
-	"homepage": "https://github.com/mdzama1012/all-javascript#readme",
-	"devDependencies": {
-		"prettier": "^3.5.1"
-	}
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Javascript 101",
+  "scripts": {
+    "format": "prettier --write ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdzama1012/all-javascript.git"
+  },
+  "keywords": [
+    "javascript",
+    "interview"
+  ],
+  "author": "Mohammad Zama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdzama1012/all-javascript/issues"
+  },
+  "homepage": "https://github.com/mdzama1012/all-javascript#readme",
+  "devDependencies": {
+    "prettier": "^3.5.1"
+  }
 }

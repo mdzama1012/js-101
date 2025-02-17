@@ -1,5 +1,6 @@
 // basic use of ternary operator without conditional assignment.
-const a = 5, b = 7;
+const a = 5,
+  b = 7;
 a > b ? console.log('a is greater') : console.log('b is greater');
 
 // basics use of ternary operator for conditional assignment.
@@ -9,7 +10,9 @@ console.log(`you ${canVote} vote!`);
 
 // ternary operator with multiple lines and conditional assignment.
 const auth = true;
-const redirect = auth ? (console.log('welcome to your dashboard!'), '/dashboard') : (console.log('you enter wrong password!'), '/login');
+const redirect = auth
+  ? (console.log('welcome to your dashboard!'), '/dashboard')
+  : (console.log('you enter wrong password!'), '/login');
 console.log(redirect);
 
 // conditional assignment without else part.

@@ -1,23 +1,23 @@
 const clearAllButton = document.querySelector('#clear');
 
 const onClear = function () {
-	const itemList = document.querySelectorAll('li');
-	// itemList.forEach(child => child.remove());
+  const itemList = document.querySelectorAll('li');
+  // itemList.forEach(child => child.remove());
 
-	const parentList = document.querySelector('.items');
-	while (parentList.firstChild) {
-		parentList.removeChild(parentList.firstChild);
-		// parentList.firstChild.remove();
-	}
-	console.log('all items cleared!');
+  const parentList = document.querySelector('.items');
+  while (parentList.firstChild) {
+    parentList.removeChild(parentList.firstChild);
+    // parentList.firstChild.remove();
+  }
+  console.log('all items cleared!');
 };
 
 const onClearAlert = () => {
-	alert('all item will be cleared');
+  alert('all item will be cleared');
 };
 
 const onClearConfirm = () => {
-	console.log('all item clear');
+  console.log('all item clear');
 };
 
 // ! javascript event listeners.

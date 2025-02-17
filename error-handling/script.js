@@ -13,21 +13,21 @@
 
 let endpoint = 'https://httpstat.us/500';
 function dummyResponse() {
-	return fetch(endpoint);
+  return fetch(endpoint);
 }
 function dummyPromise() {
-	return new Promise((resolve, reject) => {
-		setTimeout(() => {
-			let isRejected = true;
-			if (isRejected) {
-				console.log('some async task!');
-				reject('Something went wrong!');
-			} else {
-				console.log('some async task!');
-				resolve('Async task completed successfully!');
-			}
-		}, 2000);
-	});
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      let isRejected = true;
+      if (isRejected) {
+        console.log('some async task!');
+        reject('Something went wrong!');
+      } else {
+        console.log('some async task!');
+        resolve('Async task completed successfully!');
+      }
+    }, 2000);
+  });
 }
 
 // ! handle responses and promises with .then() and .catch()
@@ -54,22 +54,22 @@ const message = document.getElementById('message');
 
 // ! handle responses and promises with async and await.
 const tempFunction1 = async () => {
-	try {
-		const res = await dummyPromise();
-		console.log(res);
-	} catch (error) {
-		console.log(error);
-	}
+  try {
+    const res = await dummyPromise();
+    console.log(res);
+  } catch (error) {
+    console.log(error);
+  }
 };
 const tempFunction2 = async () => {
-	try {
-		const res = await dummyResponse();
-		if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-		const data = await res.text();
-		console.log('Uncaught: ' + data);
-	} catch (error) {
-		console.log(error.message);
-	}
+  try {
+    const res = await dummyResponse();
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+    const data = await res.text();
+    console.log('Uncaught: ' + data);
+  } catch (error) {
+    console.log(error.message);
+  }
 };
 tempFunction1();
 tempFunction2();

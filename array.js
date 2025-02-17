@@ -39,7 +39,7 @@ x = numbers.slice(1, 3); // output => [5, 44]
 x = numbers.concat([1, 2], [3, 4]);
 
 // join() joins elements of an array into string, separated by a specified separator.
-x = numbers.join(", "); // output => "1, 2, 3, 4, 5, 6"
+x = numbers.join(', '); // output => "1, 2, 3, 4, 5, 6"
 
 // indexOf() return first index where given element is found or -1 if not present.
 x = numbers.indexOf(5);
@@ -48,4 +48,4 @@ x = numbers.indexOf(5);
 x = numbers.includes(5);
 
 // find() return value of the first element in the array where callback returns true, otherwise undefined.
-x = numbers.find(number => number === 5);
+x = numbers.find((number) => number === 5);

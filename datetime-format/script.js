@@ -16,19 +16,19 @@ x = d.getSeconds();
 x = d.getMilliseconds();
 
 x = `Date: ${d.getDate()}-${
-	d.getMonth() + 1
+  d.getMonth() + 1
 }-${d.getFullYear()} Time: ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`;
 
 // api to formate date and time according to the locales.
 // x = Intl.DateTimeFormat('en-IN').format(d);
-x = Intl.DateTimeFormat("en-US", {
-	weekday: "long",
-	year: "numeric",
-	month: "long",
-	day: "numeric",
-	hour: "2-digit",
-	minute: "2-digit",
-	second: "2-digit",
+x = Intl.DateTimeFormat('en-US', {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  hour: '2-digit',
+  minute: '2-digit',
+  second: '2-digit',
 }).format(d);
 
 // same as above.

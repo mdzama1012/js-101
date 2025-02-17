@@ -7,15 +7,15 @@
  * operators use the same syntax (...), but their purpose and usage differ.
  *
  */
-const firstName = "mohd";
-const lastName = "zama";
+const firstName = 'mohd';
+const lastName = 'zama';
 const age = 20;
 
 const person = {
-	// firstName: firstName === firstName, because the key and value are same.
-	firstName: firstName,
-	lastName,
-	age,
+  // firstName: firstName === firstName, because the key and value are same.
+  firstName: firstName,
+  lastName,
+  age,
 };
 
 /**
@@ -35,24 +35,24 @@ const { z, y, x } = vars;
 // destructure triple nested object.
 
 const superNested = {
-	a: 1,
-	b: {
-		c: 2,
-	},
-	c: {
-		d: {
-			e: 3,
-		},
-	},
+  a: 1,
+  b: {
+    c: 2,
+  },
+  c: {
+    d: {
+      e: 3,
+    },
+  },
 };
 
 // destructuring
 const {
-	a,
-	b: { c },
-	c: {
-		d: { e },
-	},
+  a,
+  b: { c },
+  c: {
+    d: { e },
+  },
 } = superNested;
 
 // destructure an array.

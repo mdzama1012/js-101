@@ -3,11 +3,11 @@ let fullName = 'Mohd Zama';
 
 // reference values are stored on the heap.
 const person = {
-    fullName: 'Mohd Zama',
-    age: 20,
-    email: 'zamazaidi777@gmail.com',
-    phoneNumber: '+91 8791365544'
-}
+  fullName: 'Mohd Zama',
+  age: 20,
+  email: 'zamazaidi777@gmail.com',
+  phoneNumber: '+91 8791365544',
+};
 
 let newFullName = fullName;
 console.log(fullName);
