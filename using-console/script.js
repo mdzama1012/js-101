@@ -6,10 +6,10 @@ console.log(typeof console, console);
 
 // print objects on console in form of table.
 const tempObj = {
-  fullName: 'Mohd Zama',
-  age: 18,
-  rollNumber: '2100330130020',
-  collegeName: 'RKGIT',
+    fullName: 'Mohd Zama',
+    age: 18,
+    rollNumber: '2100330130020',
+    collegeName: 'RKGIT',
 };
 console.table(tempObj);
 

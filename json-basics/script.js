@@ -1,24 +1,24 @@
 const tasks = [
-  {
-    task_id: 1,
-    task: 'buy milk',
-  },
-  {
-    task_id: 2,
-    task: 'buy apples',
-  },
-  {
-    task_id: 3,
-    task: 'cook food',
-  },
-  {
-    task_id: 4,
-    task: 'workout',
-  },
-  {
-    task_id: 5,
-    task: 'call home',
-  },
+    {
+        task_id: 1,
+        task: 'buy milk',
+    },
+    {
+        task_id: 2,
+        task: 'buy apples',
+    },
+    {
+        task_id: 3,
+        task: 'cook food',
+    },
+    {
+        task_id: 4,
+        task: 'workout',
+    },
+    {
+        task_id: 5,
+        task: 'call home',
+    },
 ];
 
 // convert to JSON string (we usually send stringify json to server).

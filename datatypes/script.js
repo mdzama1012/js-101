@@ -33,13 +33,13 @@ console.log(typeof bigNum, bigNum);
 // any reference has a type is "object".
 const nums = [1, 2, 3, 4, 5];
 const person = {
-  fullName: 'Mohd Zama',
-  age: 20,
-  email: 'zamazaidi777@gmail.com',
-  phoneNumber: '+91 8791365544',
+    fullName: 'Mohd Zama',
+    age: 20,
+    email: 'zamazaidi777@gmail.com',
+    phoneNumber: '+91 8791365544',
 };
 function greeting(fullName) {
-  console.log(`Hello, ${fullName}!`);
+    console.log(`Hello, ${fullName}!`);
 }
 greeting(str1);
 console.log(typeof nums, nums);

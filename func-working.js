@@ -24,13 +24,13 @@ a();
 b();
 
 function a() {
-  var x = 5; // this x is not bind to the window object.
-  let y = 7; // inside temporal dead zone.
-  console.log(x * y);
+    var x = 5; // this x is not bind to the window object.
+    let y = 7; // inside temporal dead zone.
+    console.log(x * y);
 }
 
 function b() {
-  var x = 2;
-  let y = 5;
-  console.log(x * y);
+    var x = 2;
+    let y = 5;
+    console.log(x * y);
 }

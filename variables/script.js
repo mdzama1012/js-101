@@ -26,10 +26,10 @@ console.log(nums);
 nums.push(6);
 console.log(nums);
 const person = {
-  fullName: 'Mohd Zama',
-  age: 20,
-  email: 'zamazaidi777@gmail.com',
-  mobileNum: '+91 8791365544',
+    fullName: 'Mohd Zama',
+    age: 20,
+    email: 'zamazaidi777@gmail.com',
+    mobileNum: '+91 8791365544',
 };
 console.table(person);
 person.fullName = 'Mohd Zama Zaidi';

@@ -1,36 +1,36 @@
 const logo = document.querySelector('img');
 
 const onClick = (event) => {
-  console.log('type of event: ' + event.type);
-  console.log(new Date(event.timeStamp + Date.now()));
+    console.log('type of event: ' + event.type);
+    console.log(new Date(event.timeStamp + Date.now()));
 
-  // console.log(event);
-  // In this case both are same.
-  // console.log(event.target);
-  // console.log(event.currentTarget);
+    // console.log(event);
+    // In this case both are same.
+    // console.log(event.target);
+    // console.log(event.currentTarget);
 
-  console.log(event.clientX);
-  console.log(event.clientY);
-  console.log(event.offsetX);
-  console.log(event.offsetY);
-  console.log(event.screenX);
-  console.log(event.screenY);
-  console.log(event.pageX);
-  console.log(event.pageY);
+    console.log(event.clientX);
+    console.log(event.clientY);
+    console.log(event.offsetX);
+    console.log(event.offsetY);
+    console.log(event.screenX);
+    console.log(event.screenY);
+    console.log(event.pageX);
+    console.log(event.pageY);
 };
 
 const onDrag = (event) => {
-  document.querySelector('h1').innerHTML =
-    `X ${event.clientX}, Y ${event.clientY}`;
+    document.querySelector('h1').innerHTML =
+        `X ${event.clientX}, Y ${event.clientY}`;
 };
 
 logo.addEventListener('drag', onDrag);
 logo.addEventListener('click', onClick);
 
 document.querySelector('a').addEventListener('click', (event) => {
-  // this will not take me to the linked page with is the default behavior of <a> tag hence prevent the default behavior.
-  event.preventDefault();
-  console.log('link was click but default behavior is prevented.');
+    // this will not take me to the linked page with is the default behavior of <a> tag hence prevent the default behavior.
+    event.preventDefault();
+    console.log('link was click but default behavior is prevented.');
 });
 
 // document.body.addEventListener('click', event => {

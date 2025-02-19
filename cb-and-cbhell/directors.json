@@ -1,26 +1,26 @@
 [
-  {
-    "director": "Rajkumar Hirani",
-    "movies": ["3 Idiots", "PK", "Sanju"]
-  },
-  {
-    "director": "Karan Johar",
-    "movies": [
-      "Kabhi Khushi Kabhie Gham",
-      "My Name is Khan",
-      "Ae Dil Hai Mushkil"
-    ]
-  },
-  {
-    "director": "Sanjay Leela Bhansali",
-    "movies": ["Padmaavat", "Bajirao Mastani", "Devdas"]
-  },
-  {
-    "director": "Anurag Kashyap",
-    "movies": ["Gangs of Wasseypur", "Black Friday", "Manmarziyaan"]
-  },
-  {
-    "director": "Zoya Akhtar",
-    "movies": ["Zindagi Na Milegi Dobara", "Gully Boy", "Dil Dhadakne Do"]
-  }
+    {
+        "director": "Rajkumar Hirani",
+        "movies": ["3 Idiots", "PK", "Sanju"]
+    },
+    {
+        "director": "Karan Johar",
+        "movies": [
+            "Kabhi Khushi Kabhie Gham",
+            "My Name is Khan",
+            "Ae Dil Hai Mushkil"
+        ]
+    },
+    {
+        "director": "Sanjay Leela Bhansali",
+        "movies": ["Padmaavat", "Bajirao Mastani", "Devdas"]
+    },
+    {
+        "director": "Anurag Kashyap",
+        "movies": ["Gangs of Wasseypur", "Black Friday", "Manmarziyaan"]
+    },
+    {
+        "director": "Zoya Akhtar",
+        "movies": ["Zindagi Na Milegi Dobara", "Gully Boy", "Dil Dhadakne Do"]
+    }
 ]

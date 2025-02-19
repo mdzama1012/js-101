@@ -22,9 +22,9 @@
 const x = 0;
 
 if (x) {
-  console.log('${x} is a truthy value.');
+    console.log('${x} is a truthy value.');
 } else {
-  console.log('${x} is a falsy value.');
+    console.log('${x} is a falsy value.');
 }
 
 console.log(Boolean(x));
