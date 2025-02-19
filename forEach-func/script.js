@@ -26,7 +26,7 @@ function decorativePrint(str, i) {
 socials.forEach(decorativePrint);
 
 let sum = 0;
-socials.forEach((num) => (sum += num));
+socials.forEach(num => (sum += num));
 console.log('sum = ' + sum);
 
 socials.forEach((curEle, i, curArr) =>

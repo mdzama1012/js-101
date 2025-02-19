@@ -35,7 +35,7 @@ listItems = document.getElementsByClassName('item');
 console.log(typeof listItems, listItems);
 // convert HTMLCollection to array.
 const listItemsArray = Array.from(listItems);
-listItemsArray.forEach((item) => {
+listItemsArray.forEach(item => {
     console.log(item.innerText);
 });
 

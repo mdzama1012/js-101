@@ -48,4 +48,4 @@ x = numbers.indexOf(5);
 x = numbers.includes(5);
 
 // find() return value of the first element in the array where callback returns true, otherwise undefined.
-x = numbers.find((number) => number === 5);
+x = numbers.find(number => number === 5);

@@ -13,7 +13,7 @@ function createNote(newNote, callbackFunction) {
     }, 2000);
 }
 function getAllNotes() {
-    setTimeout(() => notes.forEach((note) => console.log(note.note)), 1000);
+    setTimeout(() => notes.forEach(note => console.log(note.note)), 1000);
 }
 
 // createNote({ note_id: 20, note: 'Lets explore the callback function!' });

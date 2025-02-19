@@ -7,7 +7,7 @@ const runHandler = () => {
     console.log(text.classList);
 
     // * can loop thought the classes.
-    itemList.classList.forEach((c) => console.log(c));
+    itemList.classList.forEach(c => console.log(c));
 
     // * apply dark-css by adding 'dark' class.
     text.classList.add('dark');

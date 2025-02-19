@@ -1,5 +1,5 @@
 const form = document.querySelector('form');
-const onSubmit = (event) => {
+const onSubmit = event => {
     event.preventDefault();
 
     let item = document.querySelector('#item-input');

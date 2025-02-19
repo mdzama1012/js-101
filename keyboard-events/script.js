@@ -1,6 +1,6 @@
 const input = document.querySelector('.form-input');
 
-const onKeyDown = (event) => {
+const onKeyDown = event => {
     if (event.repeat) {
         console.log('event is repeated');
     }
@@ -19,11 +19,11 @@ const onKeyDown = (event) => {
     }
 };
 
-const onKeyUp = (event) => {
+const onKeyUp = event => {
     console.log(event.key + ' key is up');
 };
 
-const onKeyPress = (event) => {
+const onKeyPress = event => {
     console.log(event.key + ' key is pressed');
 };
 

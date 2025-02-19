@@ -19,16 +19,16 @@ function getData(endpoint) {
 
 // Consume the promise
 getData('./movies.json')
-    .then((res) => JSON.parse(res.responseText))
-    .then((res) => {
+    .then(res => JSON.parse(res.responseText))
+    .then(res => {
         console.log('Movies:', res);
         return getData('./directors.json');
     })
-    .then((res) => JSON.parse(res.responseText))
-    .then((res) => {
+    .then(res => JSON.parse(res.responseText))
+    .then(res => {
         console.log('Directors:', res);
         return getData('./actors.json');
     })
-    .then((res) => JSON.parse(res.responseText))
-    .then((res) => console.log('Actors:', res))
-    .catch((err) => console.log(err));
+    .then(res => JSON.parse(res.responseText))
+    .then(res => console.log('Actors:', res))
+    .catch(err => console.log(err));

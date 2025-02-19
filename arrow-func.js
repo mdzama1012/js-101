@@ -8,17 +8,17 @@ const add = (a, b) => {
 const subtract = (a, b) => a - b;
 
 // arrow function with one parameter and implicit return. 😁
-const double = (n) => 2 * n;
+const double = n => 2 * n;
 
 // arrow function with one line of code and implicit return (undefined).
-const sayMyName = (fullName) => console.log(`hello, ${fullName}`);
+const sayMyName = fullName => console.log(`hello, ${fullName}`);
 
 // arrow function that return a object. 💀
 const makeObj = (userId, fullName, age) => ({ userId, fullName, age });
 
 // arrow function in a callback.
 let nums = [1, 2, 3, 4, 5];
-nums.forEach((num) => console.log(5 * num));
+nums.forEach(num => console.log(5 * num));
 
 // IIFE (immediately invoked function expressions).
 (function () {
@@ -32,7 +32,7 @@ nums.forEach((num) => console.log(5 * num));
 // console.table(makeOjb(15, 'mohd zama', 20));
 
 // function challenges-1:
-const getCelsius = (temperature) => ((temperature - 32) * 5) / 9;
+const getCelsius = temperature => ((temperature - 32) * 5) / 9;
 console.log(`temperature is 82 \xB0F or ${Math.round(getCelsius(82))} \xB0C`);
 
 // function challenges-2:

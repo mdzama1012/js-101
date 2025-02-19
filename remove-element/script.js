@@ -12,11 +12,11 @@ const removeFirstItem = function () {
 };
 
 // remove nth-child passed in parameters.
-const removeNthItem = (itemNumber) =>
+const removeNthItem = itemNumber =>
     document.querySelectorAll('li')[itemNumber - 1].remove();
 
 const removeAllItems = () =>
-    document.querySelectorAll('li').forEach((item) => item.remove());
+    document.querySelectorAll('li').forEach(item => item.remove());
 
 // removeClearButton();
 // removeFirstItem();

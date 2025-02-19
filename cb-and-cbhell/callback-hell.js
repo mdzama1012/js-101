@@ -16,11 +16,11 @@ function getData(endpoint) {
 // getData('./actors.json');
 
 // ! CALLBACK HELL
-getData('./movies.json', (responseBody) => {
+getData('./movies.json', responseBody => {
     console.log(responseBody);
-    getData('./directors.json', (responseBody) => {
+    getData('./directors.json', responseBody => {
         console.log(responseBody);
-        getData('./actors.json', (responseBody) => {
+        getData('./actors.json', responseBody => {
             console.log(responseBody);
         });
     });

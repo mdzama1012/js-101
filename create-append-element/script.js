@@ -1,5 +1,5 @@
 // quick and dirty.
-const addListItem = (item) => {
+const addListItem = item => {
     const listItem = document.createElement('li');
     // insert content in the element node.
     listItem.innerHTML = ` ${item}
@@ -10,7 +10,7 @@ const addListItem = (item) => {
 };
 
 // clear and performant.
-const addListItemClear = (item) => {
+const addListItemClear = item => {
     const listItem = document.createElement('li');
     const text = document.createTextNode(`${item}`);
     const button = document.createElement('button');

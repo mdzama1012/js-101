@@ -2,15 +2,15 @@ const inputField = document.getElementById('item-input');
 const itemPriority = document.getElementById('priority-input');
 const checkbox = document.getElementById('checkbox-recurring');
 
-const onItemInput = (event) => {
+const onItemInput = event => {
     console.log(event.target.value);
 };
 
-const onPriorityInput = (event) => {
+const onPriorityInput = event => {
     console.log(event.target.value);
 };
 
-const onCheck = (event) => {
+const onCheck = event => {
     console.log(
         event.target.checked
             ? 'item will be added as recurring items!'
@@ -18,7 +18,7 @@ const onCheck = (event) => {
     );
 };
 
-const onFocus = (event) => {
+const onFocus = event => {
     console.log('focused on input field!');
     event.target.style = `
 		border-color: #3498db;
@@ -28,7 +28,7 @@ const onFocus = (event) => {
 	`;
 };
 
-const onBlur = (event) => {
+const onBlur = event => {
     console.log('focus out of input field!');
     event.target.style = `
 		transition: all 0.1s ease;

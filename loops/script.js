@@ -30,7 +30,7 @@ for (const key in person) {
     // check is the value of key is an array or not.
     const isArr = Array.isArray(person[key]);
     if (isArr) {
-        person[key].forEach((ele) => {
+        person[key].forEach(ele => {
             console.log(ele);
         });
     } else {

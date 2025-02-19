@@ -5,7 +5,7 @@ const notes = [
     //... more notes
 ];
 function getAllNotes() {
-    setTimeout(() => notes.forEach((note) => console.log(note.note)), 1000);
+    setTimeout(() => notes.forEach(note => console.log(note.note)), 1000);
 }
 function createNote(newNote) {
     return new Promise((resolve, reject) => {

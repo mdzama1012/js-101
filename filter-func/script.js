@@ -7,13 +7,13 @@
  */
 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const evenArr = arr.filter((arr) => arr % 2 === 0);
-const oddArr = arr.filter((arr) => arr % 2);
+const evenArr = arr.filter(arr => arr % 2 === 0);
+const oddArr = arr.filter(arr => arr % 2);
 // console.log(evenArr);
 // console.log(oddArr);
 
 const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
-const result = words.filter((word) => word.length > 8);
+const result = words.filter(word => word.length > 8);
 // result[0] = "xxx";
 // console.log(words);
 // console.log(result);
@@ -32,7 +32,7 @@ const socials = [
     { social: 'linkedin', url: 'https://linkedin.com', screenTime: 2 },
     { social: 'instagram', url: 'https://instagram.com', screenTime: 3 },
 ];
-const restrictSocial = socials.filter((social) => social.screenTime > 2);
+const restrictSocial = socials.filter(social => social.screenTime > 2);
 // restrictSocial[0].screenTime = 100;
 // console.log(socials);
 // console.log(restrictSocial);
