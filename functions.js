@@ -7,6 +7,8 @@
  * first class functions in javascript.
  * we can return and pass functions as values and this ability of a programming language is know as first class function.
  * functions in javascript are first class citizens(same thing as above).
+ * arguments are used in function invocation.
+ * parameters are used in function declaration.
  */
 
 // hoisting of function.
